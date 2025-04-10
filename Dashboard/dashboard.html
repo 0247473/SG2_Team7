@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Facility Dashboard</title>
+
+    <!-- Load D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- Load additional libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/d3-scale-chromatic@3.0.0/dist/d3-scale-chromatic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+    <!-- Bootstrap for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/css/dashboard.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white p-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Manufacturing Facility Dashboard</h1>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="d-inline-block me-3">
+                        <label for="timeRangeSelector" class="form-label mb-0 text-white">Time Range:</label>
+                        <select class="form-select form-select-sm d-inline-block w-auto" id="timeRangeSelector">
+                            <option value="day">Daily</option>
+                            <option value="week">Weekly</option>
+                            <option value="month" selected>Monthly</option>
+                            <option value="quarter">Quarterly</option>
+                            <option value="year">Yearly</option>
+                        </select>
+                    </div>
+                    <button id="refreshData" class="btn btn-sm btn-primary">Refresh Data</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Dashboard Introduction -->
+    <section class="bg-light border-bottom py-2">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-9">
+                    <h4 class="mb-1">Manufacturing Facility Performance Overview</h4>
+                    <p class="text-muted mb-0">This dashboard provides insights into your manufacturing facility's performance across workstations, product quality, and resource allocation. Use these visualizations to identify bottlenecks, optimize workflows, and improve overall production efficiency.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="alert alert-info mb-0 py-2 small">
+                        <strong><i class="bi bi-info-circle me-1"></i>Dashboard Guide:</strong> Start with the KPIs, then explore production trends, workstation status, and bottleneck analysis to identify improvement opportunities.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Performance Indicators -->
+    <section class="bg-light py-3">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <h5 class="mb-0">Key Performance Indicators</h5>
+                <div class="text-muted small">These indicators provide a quick overview of facility performance</div>
+            </div>
+            
+            <div class="row" id="kpiSection">
+                <!-- KPI cards with enhanced descriptions -->
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100 bg-primary text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Total Production</h5>
+                            <h3 class="card-text" id="kpiTotalProduction">Loading...</h3>
+                            <p class="card-text small" id="kpiTotalProductionChange">Analyzing data...</p>
+                            <div class="mt-2 border-top pt-2 small">
+                                <span class="fw-bold">Insight:</span> <span id="productionInsight">Compare to target production of 1,200 units per day</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100 bg-success text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Quality Rate</h5>
+                            <h3 class="card-text" id="kpiQualityRate">Loading...</h3>
+                            <p class="card-text small" id="kpiQualityRateChange">Analyzing data...</p>
+                            <div class="mt-2 border-top pt-2 small">
+                                <span class="fw-bold">Insight:</span> <span id="qualityInsight">Industry benchmark is 95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100 bg-danger text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Avg. Downtime</h5>
+                            <h3 class="card-text" id="kpiDowntime">Loading...</h3>
+                            <p class="card-text small" id="kpiDowntimeChange">Analyzing data...</p>
+                            <div class="mt-2 border-top pt-2 small">
+                                <span class="fw-bold">Insight:</span> <span id="downtimeInsight">Target: Less than 8 hrs/day</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100 bg-warning">
+                        <div class="card-body">
+                            <h5 class="card-title">Bottleneck Station</h5>
+                            <h3 class="card-text" id="kpiBottleneck">Loading...</h3>
+                            <p class="card-text small" id="kpiBottleneckInfo">Analyzing data...</p>
+                            <div class="mt-2 border-top pt-2 small">
+                                <span class="fw-bold">Action:</span> <span id="bottleneckAction">Focus optimization efforts here</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Dashboard -->
+    <section class="py-3">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Production Overview -->
+                <div class="col-md-8 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header d-flex justify-content-between">
+                            <div>
+                                <h5 class="mb-0">Production Overview</h5>
+                                <p class="text-muted small mb-0">Track production output and quality trends over time to identify patterns and anomalies</p>
+                            </div>
+                            <div class="btn-group btn-group-sm">
+                                <button class="btn btn-outline-secondary active" data-view="production">Production</button>
+                                <button class="btn btn-outline-secondary" data-view="quality">Quality</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div id="productionChart" style="height: 300px;"></div>
+                            <div class="mt-2 pt-2 border-top">
+                                <div class="d-flex justify-content-between">
+                                    <div class="small text-muted" id="productionInsight">
+                                        <i class="bi bi-lightbulb"></i> <span>Analyzing production trends...</span>
+                                    </div>
+                                    <div class="small text-primary" id="productionAction">
+                                        <i class="bi bi-check-circle"></i> <span>Recommended action will appear here</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Workstation Status -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="mb-0">Workstation Status</h5>
+                            <p class="text-muted small mb-0">Compare time distribution across workstations to identify operational efficiency</p>
+                        </div>
+                        <div class="card-body">
+                            <div id="workstationStatus" style="height: 300px;"></div>
+                            <div class="mt-2 pt-2 border-top">
+                                <div class="small text-muted" id="wsStatusInsight">
+                                    <i class="bi bi-lightbulb"></i> <span>Workstations with high downtime percentages indicate maintenance or process issues</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Workstation Performance -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header d-flex justify-content-between">
+                            <div>
+                                <h5 class="mb-0">Workstation Performance</h5>
+                                <p class="text-muted small mb-0">Analyze key metrics for each workstation to identify improvement opportunities</p>
+                            </div>
+                            <select class="form-select form-select-sm w-auto" id="wsMetricSelector">
+                                <option value="downtime">Downtime</option>
+                                <option value="waiting">Waiting Time</option>
+                                <option value="active">Active Time</option>
+                            </select>
+                        </div>
+                        <div class="card-body">
+                            <div id="workstationPerformance" style="height: 300px;"></div>
+                            <div class="mt-2 pt-2 border-top">
+                                <div class="small text-muted" id="wsPerformanceInsight">
+                                    <i class="bi bi-lightbulb"></i> <span>Higher failure probability correlates with increased downtime</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Supplier Occupancy -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="mb-0">Supplier Occupancy & Bottleneck Analysis</h5>
+                            <p class="text-muted small mb-0">Visualize the relationship between supplier occupancy and bottleneck delays</p>
+                        </div>
+                        <div class="card-body">
+                            <div id="supplierOccupancy" style="height: 300px;"></div>
+                            <div class="mt-2 pt-2 border-top">
+                                <div class="small text-muted" id="supplierInsight">
+                                    <i class="bi bi-lightbulb"></i> <span>Positive correlation indicates that high supplier occupancy leads to bottleneck delays</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Quality -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="mb-0">Product Quality Analysis</h5>
+                            <p class="text-muted small mb-0">Breakdown of production by product type and quality metrics</p>
+                        </div>
+                        <div class="card-body">
+                            <div id="productQuality" style="height: 300px;"></div>
+                            <div class="mt-2 pt-2 border-top">
+                                <div class="small text-muted" id="qualityDistributionInsight">
+                                    <i class="bi bi-lightbulb"></i> <span>Product types with lower quality rates may require process improvements</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Detailed Workstation Analysis -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header d-flex justify-content-between">
+                            <div>
+                                <h5 class="mb-0">Detailed Workstation Analysis</h5>
+                                <p class="text-muted small mb-0">Examine daily performance for a specific workstation over time</p>
+                            </div>
+                            <select class="form-select form-select-sm w-auto" id="wsSelector">
+                                <option value="1">Workstation 1</option>
+                                <option value="2">Workstation 2</option>
+                                <option value="3">Workstation 3</option>
+                                <option value="4">Workstation 4</option>
+                                <option value="5">Workstation 5</option>
+                                <option value="6">Workstation 6</option>
+                            </select>
+                        </div>
+                        <div class="card-body">
+                            <div id="workstationDetails" style="height: 300px;"></div>
+                            <div class="mt-2 pt-2 border-top">
+                                <div class="small text-muted" id="wsDetailsInsight">
+                                    <i class="bi bi-lightbulb"></i> <span>Spikes in downtime may indicate specific incidents or maintenance events</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Summary Section -->
+    <section class="py-3 bg-light">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">Manufacturing Facility Performance Summary</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h6 class="border-bottom pb-2">Key Findings</h6>
+                            <ul class="list-unstyled" id="summaryFindings">
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Loading key findings...</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="border-bottom pb-2">Identified Issues</h6>
+                            <ul class="list-unstyled" id="summaryIssues">
+                                <li class="mb-2"><i class="bi bi-exclamation-circle text-warning me-2"></i> Loading issues...</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="border-bottom pb-2">Recommended Actions</h6>
+                            <ul class="list-unstyled" id="summaryActions">
+                                <li class="mb-2"><i class="bi bi-lightning text-primary me-2"></i> Loading recommendations...</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="alert alert-info mt-3 mb-0">
+                        <h6 class="alert-heading"><i class="bi bi-info-circle me-2"></i>Next Steps</h6>
+                        <p class="mb-0" id="summaryNextSteps">Analyzing data to determine next steps...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="container">
+            <p class="mb-0">Manufacturing Facility Dashboard &copy; 2025</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Dashboard -->
+    <script src="static/js/dashboard.js"></script>
+</body>
+</html>

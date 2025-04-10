@@ -1,0 +1,1827 @@
+[
+  {
+    "run": 0,
+    "product_type": "Type A",
+    "production_count": 753,
+    "faulty_count": 219,
+    "quality_rate": 69.95271410480159,
+    "distribution_type": "dominant_a",
+    "timestamp": "2025-04-09 18:47:42"
+  },
+  {
+    "run": 0,
+    "product_type": "Type B",
+    "production_count": 505,
+    "faulty_count": 157,
+    "quality_rate": 71.40388974933138,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 0,
+    "product_type": "Type C",
+    "production_count": 205,
+    "faulty_count": 65,
+    "quality_rate": 67.30566681505341,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 1,
+    "product_type": "Type A",
+    "production_count": 95,
+    "faulty_count": 22,
+    "quality_rate": 76.49488309249062,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 1,
+    "product_type": "Type B",
+    "production_count": 362,
+    "faulty_count": 62,
+    "quality_rate": 82.24331749324892,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 1,
+    "product_type": "Type C",
+    "production_count": 126,
+    "faulty_count": 25,
+    "quality_rate": 80.58988382070665,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 2,
+    "product_type": "Type A",
+    "production_count": 248,
+    "faulty_count": 72,
+    "quality_rate": 72.53855452737285,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 2,
+    "product_type": "Type B",
+    "production_count": 302,
+    "faulty_count": 68,
+    "quality_rate": 78.40686789313929,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 2,
+    "product_type": "Type C",
+    "production_count": 995,
+    "faulty_count": 203,
+    "quality_rate": 79.1878014826171,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 3,
+    "product_type": "Type A",
+    "production_count": 102,
+    "faulty_count": 9,
+    "quality_rate": 91.8030805073329,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 3,
+    "product_type": "Type B",
+    "production_count": 172,
+    "faulty_count": 55,
+    "quality_rate": 68.538314958725,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 3,
+    "product_type": "Type C",
+    "production_count": 259,
+    "faulty_count": 58,
+    "quality_rate": 76.4311491332492,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 4,
+    "product_type": "Type A",
+    "production_count": 580,
+    "faulty_count": 68,
+    "quality_rate": 87.69612125447355,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 4,
+    "product_type": "Type B",
+    "production_count": 448,
+    "faulty_count": 98,
+    "quality_rate": 77.46672328100577,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 4,
+    "product_type": "Type C",
+    "production_count": 320,
+    "faulty_count": 113,
+    "quality_rate": 64.98629871670897,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 5,
+    "product_type": "Type A",
+    "production_count": 61,
+    "faulty_count": 13,
+    "quality_rate": 75.5870807363862,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 5,
+    "product_type": "Type B",
+    "production_count": 408,
+    "faulty_count": 105,
+    "quality_rate": 73.08523222579547,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 5,
+    "product_type": "Type C",
+    "production_count": 184,
+    "faulty_count": 58,
+    "quality_rate": 67.38710219843722,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 6,
+    "product_type": "Type A",
+    "production_count": 130,
+    "faulty_count": 17,
+    "quality_rate": 85.56935131897463,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 6,
+    "product_type": "Type B",
+    "production_count": 484,
+    "faulty_count": 74,
+    "quality_rate": 83.0590444997914,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 6,
+    "product_type": "Type C",
+    "production_count": 185,
+    "faulty_count": 23,
+    "quality_rate": 85.98298192765526,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 7,
+    "product_type": "Type A",
+    "production_count": 228,
+    "faulty_count": 49,
+    "quality_rate": 76.53511096727314,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 7,
+    "product_type": "Type B",
+    "production_count": 203,
+    "faulty_count": 31,
+    "quality_rate": 84.12019823517791,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 7,
+    "product_type": "Type C",
+    "production_count": 109,
+    "faulty_count": 23,
+    "quality_rate": 76.76679719517475,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 8,
+    "product_type": "Type A",
+    "production_count": 269,
+    "faulty_count": 15,
+    "quality_rate": 94.59979345477745,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 8,
+    "product_type": "Type B",
+    "production_count": 132,
+    "faulty_count": 29,
+    "quality_rate": 78.76381518708938,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 8,
+    "product_type": "Type C",
+    "production_count": 57,
+    "faulty_count": 17,
+    "quality_rate": 69.53489119859358,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 9,
+    "product_type": "Type A",
+    "production_count": 394,
+    "faulty_count": 26,
+    "quality_rate": 93.22309616567851,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 9,
+    "product_type": "Type B",
+    "production_count": 394,
+    "faulty_count": 124,
+    "quality_rate": 67.66602014223534,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 9,
+    "product_type": "Type C",
+    "production_count": 49,
+    "faulty_count": 14,
+    "quality_rate": 66.80584758623135,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 10,
+    "product_type": "Type A",
+    "production_count": 460,
+    "faulty_count": 134,
+    "quality_rate": 73.46509511966585,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 10,
+    "product_type": "Type B",
+    "production_count": 172,
+    "faulty_count": 34,
+    "quality_rate": 81.34340115657108,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 10,
+    "product_type": "Type C",
+    "production_count": 97,
+    "faulty_count": 16,
+    "quality_rate": 84.0034212935943,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 11,
+    "product_type": "Type A",
+    "production_count": 358,
+    "faulty_count": 95,
+    "quality_rate": 71.09168186294042,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 11,
+    "product_type": "Type B",
+    "production_count": 191,
+    "faulty_count": 56,
+    "quality_rate": 68.89412921100461,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 11,
+    "product_type": "Type C",
+    "production_count": 139,
+    "faulty_count": 45,
+    "quality_rate": 65.03125202029764,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 12,
+    "product_type": "Type A",
+    "production_count": 154,
+    "faulty_count": 31,
+    "quality_rate": 80.60415580258643,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 12,
+    "product_type": "Type B",
+    "production_count": 93,
+    "faulty_count": 25,
+    "quality_rate": 74.05338419337556,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 12,
+    "product_type": "Type C",
+    "production_count": 62,
+    "faulty_count": 9,
+    "quality_rate": 85.68406985627863,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 13,
+    "product_type": "Type A",
+    "production_count": 306,
+    "faulty_count": 97,
+    "quality_rate": 68.72780997078762,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 13,
+    "product_type": "Type B",
+    "production_count": 351,
+    "faulty_count": 96,
+    "quality_rate": 70.30392051142796,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 13,
+    "product_type": "Type C",
+    "production_count": 214,
+    "faulty_count": 69,
+    "quality_rate": 66.11423340386341,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 14,
+    "product_type": "Type A",
+    "production_count": 179,
+    "faulty_count": 31,
+    "quality_rate": 81.27651641426571,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 14,
+    "product_type": "Type B",
+    "production_count": 116,
+    "faulty_count": 30,
+    "quality_rate": 75.57484024770727,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 14,
+    "product_type": "Type C",
+    "production_count": 57,
+    "faulty_count": 16,
+    "quality_rate": 68.33005506024699,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 15,
+    "product_type": "Type A",
+    "production_count": 641,
+    "faulty_count": 99,
+    "quality_rate": 85.3422131999017,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 15,
+    "product_type": "Type B",
+    "production_count": 377,
+    "faulty_count": 92,
+    "quality_rate": 73.35503652016541,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 15,
+    "product_type": "Type C",
+    "production_count": 233,
+    "faulty_count": 61,
+    "quality_rate": 72.15591856347292,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 16,
+    "product_type": "Type A",
+    "production_count": 53,
+    "faulty_count": 2,
+    "quality_rate": 95.38578475294105,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 16,
+    "product_type": "Type B",
+    "production_count": 172,
+    "faulty_count": 52,
+    "quality_rate": 67.9760611289291,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 16,
+    "product_type": "Type C",
+    "production_count": 66,
+    "faulty_count": 6,
+    "quality_rate": 90.03361901756541,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 17,
+    "product_type": "Type A",
+    "production_count": 184,
+    "faulty_count": 42,
+    "quality_rate": 77.91565530378732,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 17,
+    "product_type": "Type B",
+    "production_count": 468,
+    "faulty_count": 90,
+    "quality_rate": 80.45256468891249,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 17,
+    "product_type": "Type C",
+    "production_count": 97,
+    "faulty_count": 20,
+    "quality_rate": 79.07072070371818,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 18,
+    "product_type": "Type A",
+    "production_count": 239,
+    "faulty_count": 25,
+    "quality_rate": 89.8170607137404,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 18,
+    "product_type": "Type B",
+    "production_count": 333,
+    "faulty_count": 83,
+    "quality_rate": 76.87835395910501,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 18,
+    "product_type": "Type C",
+    "production_count": 284,
+    "faulty_count": 33,
+    "quality_rate": 89.1208553055016,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 19,
+    "product_type": "Type A",
+    "production_count": 150,
+    "faulty_count": 37,
+    "quality_rate": 74.7279317566897,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 19,
+    "product_type": "Type B",
+    "production_count": 221,
+    "faulty_count": 45,
+    "quality_rate": 79.68446144183685,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 19,
+    "product_type": "Type C",
+    "production_count": 172,
+    "faulty_count": 47,
+    "quality_rate": 73.59253212214092,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 20,
+    "product_type": "Type A",
+    "production_count": 84,
+    "faulty_count": 21,
+    "quality_rate": 72.44531670716957,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 20,
+    "product_type": "Type B",
+    "production_count": 254,
+    "faulty_count": 51,
+    "quality_rate": 78.8241540916273,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 20,
+    "product_type": "Type C",
+    "production_count": 67,
+    "faulty_count": 4,
+    "quality_rate": 92.50370647526326,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 21,
+    "product_type": "Type A",
+    "production_count": 86,
+    "faulty_count": 15,
+    "quality_rate": 83.34226216908556,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 21,
+    "product_type": "Type B",
+    "production_count": 434,
+    "faulty_count": 71,
+    "quality_rate": 82.76478200959556,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 21,
+    "product_type": "Type C",
+    "production_count": 27,
+    "faulty_count": 2,
+    "quality_rate": 90.81397108838594,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 22,
+    "product_type": "Type A",
+    "production_count": 447,
+    "faulty_count": 136,
+    "quality_rate": 68.01088363490764,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 22,
+    "product_type": "Type B",
+    "production_count": 266,
+    "faulty_count": 45,
+    "quality_rate": 83.07794588955902,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 22,
+    "product_type": "Type C",
+    "production_count": 49,
+    "faulty_count": 8,
+    "quality_rate": 82.52314732113982,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 23,
+    "product_type": "Type A",
+    "production_count": 62,
+    "faulty_count": 13,
+    "quality_rate": 79.15181388593354,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 23,
+    "product_type": "Type B",
+    "production_count": 208,
+    "faulty_count": 64,
+    "quality_rate": 67.61493783673545,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 23,
+    "product_type": "Type C",
+    "production_count": 288,
+    "faulty_count": 53,
+    "quality_rate": 79.45150203028139,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 24,
+    "product_type": "Type A",
+    "production_count": 125,
+    "faulty_count": 11,
+    "quality_rate": 89.57029433940598,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 24,
+    "product_type": "Type B",
+    "production_count": 217,
+    "faulty_count": 41,
+    "quality_rate": 81.52178457169403,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 24,
+    "product_type": "Type C",
+    "production_count": 181,
+    "faulty_count": 18,
+    "quality_rate": 89.15261458867245,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 25,
+    "product_type": "Type A",
+    "production_count": 196,
+    "faulty_count": 38,
+    "quality_rate": 79.40379195312961,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 25,
+    "product_type": "Type B",
+    "production_count": 698,
+    "faulty_count": 212,
+    "quality_rate": 68.7047358906297,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 25,
+    "product_type": "Type C",
+    "production_count": 53,
+    "faulty_count": 6,
+    "quality_rate": 86.89126882909935,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 26,
+    "product_type": "Type A",
+    "production_count": 337,
+    "faulty_count": 28,
+    "quality_rate": 90.73748164927137,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 26,
+    "product_type": "Type B",
+    "production_count": 167,
+    "faulty_count": 49,
+    "quality_rate": 70.64745414836874,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 26,
+    "product_type": "Type C",
+    "production_count": 94,
+    "faulty_count": 29,
+    "quality_rate": 67.28497883392961,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 27,
+    "product_type": "Type A",
+    "production_count": 127,
+    "faulty_count": 39,
+    "quality_rate": 69.25222100167537,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 27,
+    "product_type": "Type B",
+    "production_count": 866,
+    "faulty_count": 208,
+    "quality_rate": 76.69261154383294,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 27,
+    "product_type": "Type C",
+    "production_count": 258,
+    "faulty_count": 21,
+    "quality_rate": 91.98489730631242,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 28,
+    "product_type": "Type A",
+    "production_count": 135,
+    "faulty_count": 35,
+    "quality_rate": 72.01478275590073,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 28,
+    "product_type": "Type B",
+    "production_count": 414,
+    "faulty_count": 87,
+    "quality_rate": 77.60152099813872,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 28,
+    "product_type": "Type C",
+    "production_count": 548,
+    "faulty_count": 118,
+    "quality_rate": 78.98717272013502,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 29,
+    "product_type": "Type A",
+    "production_count": 178,
+    "faulty_count": 8,
+    "quality_rate": 95.50837810483111,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 29,
+    "product_type": "Type B",
+    "production_count": 266,
+    "faulty_count": 57,
+    "quality_rate": 78.95062890079856,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 29,
+    "product_type": "Type C",
+    "production_count": 152,
+    "faulty_count": 48,
+    "quality_rate": 70.13459578464237,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 30,
+    "product_type": "Type A",
+    "production_count": 353,
+    "faulty_count": 49,
+    "quality_rate": 86.97497985060606,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 30,
+    "product_type": "Type B",
+    "production_count": 287,
+    "faulty_count": 43,
+    "quality_rate": 84.32126666271859,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 30,
+    "product_type": "Type C",
+    "production_count": 116,
+    "faulty_count": 31,
+    "quality_rate": 72.19354102125568,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 31,
+    "product_type": "Type A",
+    "production_count": 256,
+    "faulty_count": 65,
+    "quality_rate": 73.53721546547071,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 31,
+    "product_type": "Type B",
+    "production_count": 144,
+    "faulty_count": 42,
+    "quality_rate": 68.64282502159185,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 31,
+    "product_type": "Type C",
+    "production_count": 101,
+    "faulty_count": 8,
+    "quality_rate": 91.45366393903171,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 32,
+    "product_type": "Type A",
+    "production_count": 375,
+    "faulty_count": 86,
+    "quality_rate": 75.50884040617554,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 32,
+    "product_type": "Type B",
+    "production_count": 237,
+    "faulty_count": 69,
+    "quality_rate": 73.11198214825231,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 32,
+    "product_type": "Type C",
+    "production_count": 212,
+    "faulty_count": 26,
+    "quality_rate": 86.50495725079317,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 33,
+    "product_type": "Type A",
+    "production_count": 106,
+    "faulty_count": 19,
+    "quality_rate": 80.91660645182908,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 33,
+    "product_type": "Type B",
+    "production_count": 397,
+    "faulty_count": 61,
+    "quality_rate": 84.32476201637633,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 33,
+    "product_type": "Type C",
+    "production_count": 195,
+    "faulty_count": 34,
+    "quality_rate": 82.12635727631988,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 34,
+    "product_type": "Type A",
+    "production_count": 105,
+    "faulty_count": 32,
+    "quality_rate": 67.05365654015294,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 34,
+    "product_type": "Type B",
+    "production_count": 552,
+    "faulty_count": 117,
+    "quality_rate": 78.67879938809963,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 34,
+    "product_type": "Type C",
+    "production_count": 105,
+    "faulty_count": 15,
+    "quality_rate": 83.57902033613118,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 35,
+    "product_type": "Type A",
+    "production_count": 99,
+    "faulty_count": 22,
+    "quality_rate": 77.02287355543862,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 35,
+    "product_type": "Type B",
+    "production_count": 182,
+    "faulty_count": 50,
+    "quality_rate": 69.40175963158924,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 35,
+    "product_type": "Type C",
+    "production_count": 224,
+    "faulty_count": 56,
+    "quality_rate": 72.16407259058927,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 36,
+    "product_type": "Type A",
+    "production_count": 657,
+    "faulty_count": 235,
+    "quality_rate": 66.71440456772534,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 36,
+    "product_type": "Type B",
+    "production_count": 342,
+    "faulty_count": 91,
+    "quality_rate": 72.06121025580337,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 36,
+    "product_type": "Type C",
+    "production_count": 70,
+    "faulty_count": 6,
+    "quality_rate": 89.73481502299472,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 37,
+    "product_type": "Type A",
+    "production_count": 120,
+    "faulty_count": 16,
+    "quality_rate": 85.52577209730599,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 37,
+    "product_type": "Type B",
+    "production_count": 314,
+    "faulty_count": 100,
+    "quality_rate": 69.37722476890197,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 37,
+    "product_type": "Type C",
+    "production_count": 583,
+    "faulty_count": 115,
+    "quality_rate": 80.49032428958387,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 38,
+    "product_type": "Type A",
+    "production_count": 369,
+    "faulty_count": 77,
+    "quality_rate": 79.1061593519053,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 38,
+    "product_type": "Type B",
+    "production_count": 310,
+    "faulty_count": 89,
+    "quality_rate": 71.35764105616009,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 38,
+    "product_type": "Type C",
+    "production_count": 276,
+    "faulty_count": 54,
+    "quality_rate": 81.65415014909703,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 39,
+    "product_type": "Type A",
+    "production_count": 249,
+    "faulty_count": 24,
+    "quality_rate": 90.89269801203625,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 39,
+    "product_type": "Type B",
+    "production_count": 775,
+    "faulty_count": 268,
+    "quality_rate": 67.11067390245931,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 39,
+    "product_type": "Type C",
+    "production_count": 43,
+    "faulty_count": 10,
+    "quality_rate": 74.73259941639697,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 40,
+    "product_type": "Type A",
+    "production_count": 308,
+    "faulty_count": 13,
+    "quality_rate": 95.83480176182837,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 40,
+    "product_type": "Type B",
+    "production_count": 352,
+    "faulty_count": 124,
+    "quality_rate": 67.22717798955009,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 40,
+    "product_type": "Type C",
+    "production_count": 169,
+    "faulty_count": 51,
+    "quality_rate": 70.82944001555242,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 41,
+    "product_type": "Type A",
+    "production_count": 151,
+    "faulty_count": 12,
+    "quality_rate": 91.77709108325334,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 41,
+    "product_type": "Type B",
+    "production_count": 242,
+    "faulty_count": 43,
+    "quality_rate": 80.58830356160406,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 41,
+    "product_type": "Type C",
+    "production_count": 470,
+    "faulty_count": 168,
+    "quality_rate": 66.19587981911502,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 42,
+    "product_type": "Type A",
+    "production_count": 257,
+    "faulty_count": 49,
+    "quality_rate": 79.52499011249913,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 42,
+    "product_type": "Type B",
+    "production_count": 227,
+    "faulty_count": 73,
+    "quality_rate": 68.80498283442617,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 42,
+    "product_type": "Type C",
+    "production_count": 105,
+    "faulty_count": 11,
+    "quality_rate": 88.81327122493808,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 43,
+    "product_type": "Type A",
+    "production_count": 100,
+    "faulty_count": 20,
+    "quality_rate": 80.44766484248254,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 43,
+    "product_type": "Type B",
+    "production_count": 201,
+    "faulty_count": 57,
+    "quality_rate": 73.47184927732829,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 43,
+    "product_type": "Type C",
+    "production_count": 122,
+    "faulty_count": 36,
+    "quality_rate": 68.15070947288274,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 44,
+    "product_type": "Type A",
+    "production_count": 171,
+    "faulty_count": 26,
+    "quality_rate": 85.1647050833305,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 44,
+    "product_type": "Type B",
+    "production_count": 365,
+    "faulty_count": 126,
+    "quality_rate": 67.5520712868696,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 44,
+    "product_type": "Type C",
+    "production_count": 198,
+    "faulty_count": 33,
+    "quality_rate": 82.49368914297513,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 45,
+    "product_type": "Type A",
+    "production_count": 236,
+    "faulty_count": 56,
+    "quality_rate": 75.33511788329083,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 45,
+    "product_type": "Type B",
+    "production_count": 493,
+    "faulty_count": 88,
+    "quality_rate": 82.9714339228234,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 45,
+    "product_type": "Type C",
+    "production_count": 316,
+    "faulty_count": 64,
+    "quality_rate": 79.47916993572548,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 46,
+    "product_type": "Type A",
+    "production_count": 183,
+    "faulty_count": 35,
+    "quality_rate": 79.97644768442143,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 46,
+    "product_type": "Type B",
+    "production_count": 352,
+    "faulty_count": 107,
+    "quality_rate": 71.61020127028806,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 46,
+    "product_type": "Type C",
+    "production_count": 206,
+    "faulty_count": 48,
+    "quality_rate": 77.14783122453676,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 47,
+    "product_type": "Type A",
+    "production_count": 63,
+    "faulty_count": 16,
+    "quality_rate": 71.30927166975832,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 47,
+    "product_type": "Type B",
+    "production_count": 274,
+    "faulty_count": 80,
+    "quality_rate": 72.39483052395312,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 47,
+    "product_type": "Type C",
+    "production_count": 29,
+    "faulty_count": 9,
+    "quality_rate": 65.32591127178792,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 48,
+    "product_type": "Type A",
+    "production_count": 214,
+    "faulty_count": 35,
+    "quality_rate": 82.06434465402054,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 48,
+    "product_type": "Type B",
+    "production_count": 381,
+    "faulty_count": 89,
+    "quality_rate": 74.98341582148902,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 48,
+    "product_type": "Type C",
+    "production_count": 252,
+    "faulty_count": 41,
+    "quality_rate": 83.8631215365242,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 49,
+    "product_type": "Type A",
+    "production_count": 127,
+    "faulty_count": 10,
+    "quality_rate": 90.83874577383544,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 49,
+    "product_type": "Type B",
+    "production_count": 796,
+    "faulty_count": 244,
+    "quality_rate": 70.6834452789401,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 49,
+    "product_type": "Type C",
+    "production_count": 88,
+    "faulty_count": 13,
+    "quality_rate": 86.29130694637905,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 50,
+    "product_type": "Type A",
+    "production_count": 184,
+    "faulty_count": 36,
+    "quality_rate": 81.30763991425971,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 50,
+    "product_type": "Type B",
+    "production_count": 181,
+    "faulty_count": 41,
+    "quality_rate": 78.43977317305595,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 50,
+    "product_type": "Type C",
+    "production_count": 286,
+    "faulty_count": 49,
+    "quality_rate": 80.80090992324575,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 51,
+    "product_type": "Type A",
+    "production_count": 187,
+    "faulty_count": 58,
+    "quality_rate": 68.49255289051727,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 51,
+    "product_type": "Type B",
+    "production_count": 181,
+    "faulty_count": 53,
+    "quality_rate": 67.40280352019151,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 51,
+    "product_type": "Type C",
+    "production_count": 579,
+    "faulty_count": 119,
+    "quality_rate": 78.37341207182911,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 52,
+    "product_type": "Type A",
+    "production_count": 225,
+    "faulty_count": 59,
+    "quality_rate": 73.77942415420247,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 52,
+    "product_type": "Type B",
+    "production_count": 162,
+    "faulty_count": 35,
+    "quality_rate": 78.24542067524641,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 52,
+    "product_type": "Type C",
+    "production_count": 65,
+    "faulty_count": 19,
+    "quality_rate": 72.84278251933614,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 53,
+    "product_type": "Type A",
+    "production_count": 151,
+    "faulty_count": 21,
+    "quality_rate": 86.74023831518173,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 53,
+    "product_type": "Type B",
+    "production_count": 323,
+    "faulty_count": 84,
+    "quality_rate": 71.35520602831346,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 53,
+    "product_type": "Type C",
+    "production_count": 177,
+    "faulty_count": 20,
+    "quality_rate": 89.34430945553648,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 54,
+    "product_type": "Type A",
+    "production_count": 155,
+    "faulty_count": 18,
+    "quality_rate": 87.34547985840976,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 54,
+    "product_type": "Type B",
+    "production_count": 283,
+    "faulty_count": 43,
+    "quality_rate": 84.37212160795069,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 54,
+    "product_type": "Type C",
+    "production_count": 528,
+    "faulty_count": 181,
+    "quality_rate": 67.45505753466097,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 55,
+    "product_type": "Type A",
+    "production_count": 167,
+    "faulty_count": 41,
+    "quality_rate": 77.31056594296439,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 55,
+    "product_type": "Type B",
+    "production_count": 625,
+    "faulty_count": 202,
+    "quality_rate": 69.44551795993085,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 55,
+    "product_type": "Type C",
+    "production_count": 98,
+    "faulty_count": 26,
+    "quality_rate": 71.08309872892124,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 56,
+    "product_type": "Type A",
+    "production_count": 328,
+    "faulty_count": 61,
+    "quality_rate": 79.33042642243902,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 56,
+    "product_type": "Type B",
+    "production_count": 323,
+    "faulty_count": 69,
+    "quality_rate": 76.76864607852029,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 56,
+    "product_type": "Type C",
+    "production_count": 67,
+    "faulty_count": 10,
+    "quality_rate": 83.87851783569836,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 57,
+    "product_type": "Type A",
+    "production_count": 119,
+    "faulty_count": 31,
+    "quality_rate": 72.5416718192403,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 57,
+    "product_type": "Type B",
+    "production_count": 209,
+    "faulty_count": 61,
+    "quality_rate": 73.27087282297477,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 57,
+    "product_type": "Type C",
+    "production_count": 397,
+    "faulty_count": 145,
+    "quality_rate": 64.94521456152836,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 58,
+    "product_type": "Type A",
+    "production_count": 174,
+    "faulty_count": 14,
+    "quality_rate": 92.25828864832775,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 58,
+    "product_type": "Type B",
+    "production_count": 596,
+    "faulty_count": 167,
+    "quality_rate": 72.85245244587685,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 58,
+    "product_type": "Type C",
+    "production_count": 162,
+    "faulty_count": 28,
+    "quality_rate": 81.89080550071758,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 59,
+    "product_type": "Type A",
+    "production_count": 114,
+    "faulty_count": 30,
+    "quality_rate": 72.23436362841166,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 59,
+    "product_type": "Type B",
+    "production_count": 71,
+    "faulty_count": 11,
+    "quality_rate": 84.69803333073507,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 59,
+    "product_type": "Type C",
+    "production_count": 61,
+    "faulty_count": 9,
+    "quality_rate": 83.6791839265104,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 60,
+    "product_type": "Type A",
+    "production_count": 104,
+    "faulty_count": 26,
+    "quality_rate": 73.79667767058986,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 60,
+    "product_type": "Type B",
+    "production_count": 245,
+    "faulty_count": 70,
+    "quality_rate": 72.9081027225059,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 60,
+    "product_type": "Type C",
+    "production_count": 149,
+    "faulty_count": 22,
+    "quality_rate": 85.20210569169086,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 61,
+    "product_type": "Type A",
+    "production_count": 228,
+    "faulty_count": 39,
+    "quality_rate": 81.76230584399427,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 61,
+    "product_type": "Type B",
+    "production_count": 733,
+    "faulty_count": 169,
+    "quality_rate": 76.24266238932937,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 61,
+    "product_type": "Type C",
+    "production_count": 146,
+    "faulty_count": 42,
+    "quality_rate": 72.12719523853107,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 62,
+    "product_type": "Type A",
+    "production_count": 210,
+    "faulty_count": 23,
+    "quality_rate": 88.71238199073832,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 62,
+    "product_type": "Type B",
+    "production_count": 169,
+    "faulty_count": 36,
+    "quality_rate": 76.56922596937827,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 62,
+    "product_type": "Type C",
+    "production_count": 519,
+    "faulty_count": 109,
+    "quality_rate": 79.82141627957232,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 63,
+    "product_type": "Type A",
+    "production_count": 388,
+    "faulty_count": 27,
+    "quality_rate": 93.5994079573958,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 63,
+    "product_type": "Type B",
+    "production_count": 821,
+    "faulty_count": 221,
+    "quality_rate": 74.84066677644114,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 63,
+    "product_type": "Type C",
+    "production_count": 326,
+    "faulty_count": 96,
+    "quality_rate": 67.98925586153057,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 64,
+    "product_type": "Type A",
+    "production_count": 174,
+    "faulty_count": 10,
+    "quality_rate": 94.23670359456648,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 64,
+    "product_type": "Type B",
+    "production_count": 328,
+    "faulty_count": 58,
+    "quality_rate": 82.39331084113289,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 64,
+    "product_type": "Type C",
+    "production_count": 143,
+    "faulty_count": 33,
+    "quality_rate": 74.98279902110454,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 65,
+    "product_type": "Type A",
+    "production_count": 82,
+    "faulty_count": 9,
+    "quality_rate": 88.75968300010977,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 65,
+    "product_type": "Type B",
+    "production_count": 199,
+    "faulty_count": 42,
+    "quality_rate": 78.64411070153034,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 65,
+    "product_type": "Type C",
+    "production_count": 545,
+    "faulty_count": 132,
+    "quality_rate": 73.492399342141,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 66,
+    "product_type": "Type A",
+    "production_count": 176,
+    "faulty_count": 37,
+    "quality_rate": 79.26885313898272,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 66,
+    "product_type": "Type B",
+    "production_count": 334,
+    "faulty_count": 109,
+    "quality_rate": 67.35491990346475,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 66,
+    "product_type": "Type C",
+    "production_count": 445,
+    "faulty_count": 89,
+    "quality_rate": 79.24911305829602,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 67,
+    "product_type": "Type A",
+    "production_count": 154,
+    "faulty_count": 19,
+    "quality_rate": 86.41379575616865,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 67,
+    "product_type": "Type B",
+    "production_count": 886,
+    "faulty_count": 210,
+    "quality_rate": 74.67498589553344,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 67,
+    "product_type": "Type C",
+    "production_count": 99,
+    "faulty_count": 21,
+    "quality_rate": 77.84200891328913,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 68,
+    "product_type": "Type A",
+    "production_count": 141,
+    "faulty_count": 30,
+    "quality_rate": 78.84505812515721,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 68,
+    "product_type": "Type B",
+    "production_count": 812,
+    "faulty_count": 227,
+    "quality_rate": 71.72915634705943,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 68,
+    "product_type": "Type C",
+    "production_count": 170,
+    "faulty_count": 52,
+    "quality_rate": 65.77969657444302,
+    "distribution_type": "dominant_b"
+  },
+  {
+    "run": 69,
+    "product_type": "Type A",
+    "production_count": 466,
+    "faulty_count": 94,
+    "quality_rate": 80.20917191809491,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 69,
+    "product_type": "Type B",
+    "production_count": 141,
+    "faulty_count": 32,
+    "quality_rate": 76.13459843746762,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 69,
+    "product_type": "Type C",
+    "production_count": 92,
+    "faulty_count": 12,
+    "quality_rate": 86.31207868179574,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 70,
+    "product_type": "Type A",
+    "production_count": 84,
+    "faulty_count": 11,
+    "quality_rate": 86.67237786737887,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 70,
+    "product_type": "Type B",
+    "production_count": 93,
+    "faulty_count": 13,
+    "quality_rate": 84.77124645436666,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 70,
+    "product_type": "Type C",
+    "production_count": 142,
+    "faulty_count": 14,
+    "quality_rate": 89.70899032522249,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 71,
+    "product_type": "Type A",
+    "production_count": 167,
+    "faulty_count": 49,
+    "quality_rate": 72.80170132633157,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 71,
+    "product_type": "Type B",
+    "production_count": 250,
+    "faulty_count": 69,
+    "quality_rate": 74.18794719366763,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 71,
+    "product_type": "Type C",
+    "production_count": 226,
+    "faulty_count": 45,
+    "quality_rate": 79.0991613858463,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 72,
+    "product_type": "Type A",
+    "production_count": 241,
+    "faulty_count": 76,
+    "quality_rate": 70.48834698038621,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 72,
+    "product_type": "Type B",
+    "production_count": 201,
+    "faulty_count": 31,
+    "quality_rate": 84.16299221937533,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 72,
+    "product_type": "Type C",
+    "production_count": 24,
+    "faulty_count": 5,
+    "quality_rate": 76.17026096979767,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 73,
+    "product_type": "Type A",
+    "production_count": 154,
+    "faulty_count": 42,
+    "quality_rate": 70.22283503869619,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 73,
+    "product_type": "Type B",
+    "production_count": 372,
+    "faulty_count": 73,
+    "quality_rate": 79.11035949744502,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 73,
+    "product_type": "Type C",
+    "production_count": 192,
+    "faulty_count": 21,
+    "quality_rate": 88.11469669295545,
+    "distribution_type": "balanced"
+  },
+  {
+    "run": 74,
+    "product_type": "Type A",
+    "production_count": 366,
+    "faulty_count": 49,
+    "quality_rate": 85.98944003207735,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 74,
+    "product_type": "Type B",
+    "production_count": 232,
+    "faulty_count": 59,
+    "quality_rate": 75.47263025221667,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 74,
+    "product_type": "Type C",
+    "production_count": 217,
+    "faulty_count": 55,
+    "quality_rate": 76.13684993432149,
+    "distribution_type": "dominant_a"
+  },
+  {
+    "run": 75,
+    "product_type": "Type A",
+    "production_count": 77,
+    "faulty_count": 9,
+    "quality_rate": 88.41307055742341,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 75,
+    "product_type": "Type B",
+    "production_count": 148,
+    "faulty_count": 26,
+    "quality_rate": 83.45118454412406,
+    "distribution_type": "dominant_c"
+  },
+  {
+    "run": 75,
+    "product_type": "Type C",
+    "production_count": 535,
+    "faulty_count": 170,
+    "quality_rate": 68.0285006931111,
+    "distribution_type": "dominant_c"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "avg_daily_production": 31.452395626140618,
+  "avg_quality_percentage": 81.05841990222463,
+  "avg_downtime_hours": 49.6911813087092,
+  "bottleneck_workstation": 4,
+  "performance_scenario": "average",
+  "timestamp": "2025-04-09 18:47:42"
+}
