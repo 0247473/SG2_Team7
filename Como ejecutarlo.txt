@@ -1,0 +1,18 @@
+Pasos para ejecutar la simulación y el dashboard
+
+1.- Ejecutar la simulación
+Abre una terminal y corre el siguiente comando para iniciar la simulación:
+
+python simulation_integrated.py
+
+
+2.- Iniciar el servidor del dashboard
+Una vez termine la simulación, ejecuta el servidor para visualizar el dashboard. Puedes usar cualquiera de estos dos comandos (dependiendo de cuál tengas configurado):
+
+python server_file.py
+o
+python dashboard/server.py
+
+3.- Abrir el dashboard en el navegador
+Después de iniciar el servidor, abre tu navegador y entra al siguiente enlace:
+http://localhost:8000
